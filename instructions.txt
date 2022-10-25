@@ -1,0 +1,17 @@
+1.  load into reg1 = 0001 (0000) -> Memory address from which to load
+2.  load into reg2 = 0010 (0000) -> Memory address from which to load
+3.  load into reg3 = 0011 (0000) -> Memory address from which to load
+4.  load into reg4 = 0100 (0000) -> Memory address from which to load
+
+5.  write from reg1 to RAM = 0101 (0000) -> Memory address to which to write
+6.  write from reg2 to RAM = 0110 (0000) -> Memory address to which to write
+7.  write from reg3 to RAM = 0111 (0000) -> Memory address to which to write
+8.  write from reg4 to RAM = 1000 (0000) -> Memory address to which to write
+
+9.  jump to address = 1001 (0000) -> Memory address where to jump
+10. add and store in first register = 1010 (00) (00) -> 2 reg addresses
+11. subtract and store in first register = 1011 (00) (00) -> 2 reg addresses
+12. logical and, store in first register = 1100 (00) (00) -> 2 reg addresses
+13. logical or, store in first register = 1101 (00) (00) -> 2 reg addresses
+14. logical (a<b), store in first register = 1110 (00) (00) -> 2 reg addresses
+15. logical (a=b), store in first register = 1111 (00) (00) -> 2 reg addresses
